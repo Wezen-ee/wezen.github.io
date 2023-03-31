@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header Social Links
 --------------------------------------------------------------*/
 .header-social-links a {
-  color: #9ba6af;
+  color: #909090;
   padding-left: 8px;
   display: inline-block;
   line-height: 1px;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-social-links a:hover {
-  color: #3498db;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -378,6 +378,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn:hover {
   background: #909090;
+  border-color: #909090;
 }
 
 @media (max-width: 992px) {
@@ -639,45 +640,6 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info-wrap {
-  padding: 30px;
-  background: #fff;
-  border-radius: 4px;
-}
-
-.contact .info i {
-  font-size: 20px;
-  color: #3498db;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #eaf4fb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #384046;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #65747f;
-}
-
-.contact .info:hover i {
-  background: #3498db;
-  color: #fff;
-}
 
 .contact .php-email-form {
   width: 100%;
@@ -747,15 +709,17 @@ section {
 }
 
 .contact .php-email-form input {
+  border-color: #909090;
   height: 44px;
 }
 
 .contact .php-email-form textarea {
+  border-color: #909090;
   padding: 10px 12px;
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #3498db;
+  background: #212121;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -764,7 +728,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #5faee3;
+  background: #909090;
 }
 
 @-webkit-keyframes animate-loading {

@@ -41,17 +41,22 @@
           <li><a href="#what-we-do">Teenused</a></li>   
           <li><a href="#pricelist">Hinnakiri</a></li> 
           <li><a href="#about">Meist</a></li> 
-          <li><a href="#contact">Kontakt</a></li>         
-          
+          <li><a href="#contact">Kontakt</a></li>        
           <li class="drop-down language">
             <a href="#">ET</a>
             <ul>
               <li><a href="#">RU</a></li>
               <li><a href="#">EN</a></li> 
             </ul>
-          </li>
+          </li>         
         </ul>
       </nav><!-- .nav-menu -->
+      <div class="header-social-links">
+        <!--<a href="#" class="twitter"><i class="icofont-twitter"></i></a>-->
+        <a href="https://www.facebook.com/groups/754792295605203" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="https://www.instagram.com/wezen.workshop/" class="instagram"><i class="icofont-instagram"></i></a>
+        <!--<a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>-->
+      </div>
     </div>
   </header><!-- End Header -->
   <div id="header-placeholder"></div>
@@ -62,20 +67,17 @@
     <div class="container text-center text-md-left" data-aos="fade-up">
       <h1>Wezen</h1>
       <h2>Me parandame, sina sõidad</h2>
-      <a href="#pricelist" class="btn btn-primary">Hinnakiri</a>
-      <a href="https://goo.gl/maps/oAf9GxJytgKKXXG57" target="_blank" class="btn btn-primary">Asukoht (Google kaart)</a>      
+      <a href="#pricelist" class="btn btn-secondary">Hinnakiri</a>
+      <a href="https://goo.gl/maps/oAf9GxJytgKKXXG57" target="_blank" class="btn btn-secondary">Asukoht (Google kaart)</a>      
     </div>
   </section><!-- End Hero -->
 
     <!-- ======= What We Do Section ======= -->
     <section id="what-we-do" class="what-we-do">
       <div class="container">
-
         <div class="section-title">
-          <h2>Teenused</h2>
-         
+          <h2>Teenused</h2>         
         </div>
-
         <div class="row">
           <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-stretch">
             <div class="icon-box" data-href="/services">
@@ -94,8 +96,7 @@
         </div>
 
       </div>
-    </section><!-- End What We Do Section -->
-    
+    </section><!-- End What We Do Section -->   
 
     <!-- ======= Pricelist  Section ======= -->
     <section id="pricelist" class="pricelist section-bg">
@@ -160,7 +161,46 @@
 
       </div>
     </section><!-- End About Section -->   
-  
+   <!-- ======= Contact Section ======= -->
+   <section id="contact" class="contact section-bg">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Kontakt</h2>        
+      </div>  
+      <div class="col-lg-8 d-flex justify-content-center">
+      <div class="row mt-6 justify-content-center"> <!--<div class="row mt-5 ">-->
+          <p>Tekkisid küsimused? Võta meiega ühendust! Vastame esimesel võimalusel!</p>
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nimi" data-rule="minlen:4" data-msg="Sisetage vähemalt 4 tähte" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Sisetage õige email" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Teema" data-rule="minlen:4" data-msg="Sisetage vähemalt 8 tähte" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Teie sõnum"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Laetakse</div>
+              <div class="error-message">Teie sõnum ei olnud saadetud</div>
+              <div class="sent-message">Teie sõnum on saadetud!</div>
+            </div>
+            <div class="text-center"><button type="submit">Saada</button></div>
+          </form>     
+        </div>  
+      </div>
+    </div>
+  </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
 
