@@ -416,7 +416,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f6f8;
+  background-color: #EDEDED;
 }
 
 .section-title {
@@ -464,7 +464,7 @@ section {
 --------------------------------------------------------------*/
 .what-we-do .icon-box {
   text-align: center;
-  padding: 30px 20px;
+  padding: 20px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
   width: 75%;
@@ -490,8 +490,7 @@ section {
 
 .what-we-do .icon-box h4 {
   font-weight: 700;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 24px;
 }
 
@@ -654,7 +653,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .icon-box {
+.pricelist .icon-box {
   min-height: 325px;
   padding: 30px 30px 15px;
   border-radius: 6px;
@@ -662,13 +661,13 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.services .icon-box i {
+.pricelist .icon-box i {
   float: left;
   color: #3498db;
   font-size: 40px;
 }
 
-.services .icon-box h4 {
+.pricelist .icon-box h4 {
   margin-top: 20px;
   text-align: left;
   font-weight: 700;
@@ -676,25 +675,25 @@ section {
   font-size: 18px;
 }
 
-.services .icon-box h4 a {
+.pricelist .icon-box h4 a {
   color: #384046;
   transition: 0.3s;
 }
-.services h3 {
+.pricelist h3 {
   margin-top: 20px;
   
 }
-.services .icon-box p {
+.pricelist .icon-box p {
   text-align: left;
   line-height: 24px;
   font-size: 14px;
 }
 
-.services .icon-box:hover {
+.pricelist .icon-box:hover {
   box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
 }
 
-.services .icon-box:hover h4 a {
+.pricelist .icon-box:hover h4 a {
   color: #3498db;
 }
 
@@ -1308,7 +1307,7 @@ section {
 #footer {
   color: #444444;
   font-size: 14px;
-  background: #0f1225;
+  background: #000000;
 }
 
 #footer .footer-top {
@@ -1332,7 +1331,7 @@ section {
   line-height: 20px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #777777;
+  color: #BFBFBF;
 }
 
 #footer .footer-top ul {
@@ -1343,7 +1342,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #444444;
+  color: #BFBFBF;
   position: relative;
   padding-bottom: 12px;
 }

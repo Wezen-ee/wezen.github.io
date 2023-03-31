@@ -24,9 +24,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet"> 
 </head>
-
 <body>
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
@@ -64,7 +62,7 @@
     <div class="container text-center text-md-left" data-aos="fade-up">
       <h1>Wezen</h1>
       <h2>Me parandame, sina sõidad</h2>
-      <a href="#prices" class="btn btn-primary">Hinnakiri</a>
+      <a href="#pricelist" class="btn btn-primary">Hinnakiri</a>
       <a href="https://goo.gl/maps/oAf9GxJytgKKXXG57" target="_blank" class="btn btn-primary">Asukoht (Google kaart)</a>      
     </div>
   </section><!-- End Hero -->
@@ -97,7 +95,49 @@
 
       </div>
     </section><!-- End What We Do Section -->
+    
 
+    <!-- ======= Pricelist  Section ======= -->
+    <section id="pricelist" class="pricelist section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Hinnakiri</h2>          
+        </div>        
+        <div class="accordion" id="accordion-pricelist">
+          <div class="card">
+            <div class="card-header" id="accordion-repair">
+              <h2 class="mb-0">
+                <button class="btn btn-block text-left " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h3>Autoremont</h3>
+                </button>
+              </h2>
+            </div>                   
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionFAQ">
+              <div class="card-body">
+                <!--insert table-->
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="accordion-detailing">
+              <h2 class="mb-0">
+                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h3>Detailing</h3>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="questionTwo" data-parent="#accordionFAQ">
+              <div class="card-body">
+                Ei, tasulise parkimise maksumus ei sisaldu hinnas, parkimine tasutakse vastavalt hinnakirjale eraldi.
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <!-- End Pricelist Section -->
+    
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -107,19 +147,14 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>Meie firmast </h3>
-            <p>Smile Cleaning ettevõte tekkis ideest – vabastada inimesi kurnavast koristamisest, majapidamistöödest, hoolitseda nende eest, võttes selle koormuse täie vastutusega enda kanda.</p>
-            <p>Meie klientide jaoks on selline ettevõte tõeline pääste, mis võimaldab teil hoida oma maja igas olukorras puhtana, hoida seda hubaselt ja harmooniliselt.</p>             
-            <p>Me hoolime oma klientide tervisest ja mugavusest. Valime hoolikalt erinevat tüüpi puhastusvahendeid, kasutame tervisele ohutuid probiootikume. Meie teenuste loend sisaldab vaipade ja pehme mööbli ökopuhastust.</p> 
-            <p>“Smile Cleaning ” toob klientidele naeratusi ja mugavust. </p>
-
-            <h3>Kliendi eelised</h3>
-            <ul>
-              <li><i class="bx bx-check-double"></i> Pakume professionaalseid koristusteenuseid koolitatud puhastusspetsialistide poolt. </li>
-              <li><i class="bx bx-check-double"></i> Omas töös järgime puhastusstandardeid ning kasutame ökoloogilisi koristustarbeid.</li>
-              <li><i class="bx bx-check-double"></i> Soovime muuta iga kliendi päeva mugavamaks pakkudes kvaliteetseid puhastusteenuseid konkurentsivõimeliste hindadega.</li>
-              <li><i class="bx bx-check-double"></i> Vastavalt kliendi soovile ja objekti suurusele määrame puhastusspetsialisti, kes asub tööle Teile sobival ajal.</li>
-            </ul>          
+            <h3>Meie Firmast</h3>
+            <p>Autoremont ei ole lihtsalt töö meie jaoks.</p>
+            <p>Iga meeskonna liige omab väljapaistvad omadusi ja oskust töötada meeskonnas.</p>
+            <p>Oleme autoremondile spetsialiseerunud juba mitu aastat ning katse-eksituse meetodil oleme saavutanud tohutuid tulemusi ja kliente, kes usaldavad oma autosid meile.</p>
+            <p>Meie arsenalis on tohutu nimekiri spetsiaalsetest tööriistadest nii remondiks kui ka detailingu jaoks.</p>
+            <p>Meie peamine erinevus seisneb selles, et töö teostamisel töötame eranditult meeskonnas.</p> 
+            <p>Meil on individuaalne lähenemine igale kliendile, sõltumata probleemi ulatusest ja selle lahendusest.</p>
+            <p>Meie kliendid one meie pere.</p>
           </div>
         </div>
 
@@ -127,452 +162,38 @@
     </section><!-- End About Section -->   
   
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Teenused</h2>          
-        </div>
-        <h3>Kodu koristus</h3>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mt-3">
-            <div class="icon-box">
-              <!--<i class="icofont-computer"></i>-->
-              <img src="assets/img/room-500x250.jpg" class="img-fluid" alt="">
-              <h4><a href="services.html">Standard puhastus</a></h4>
-              <p>Hoiab teie korterit regulaarselt puhtana</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mt-3">
-            <div class="icon-box">  
-              <img src="assets/img/room-500x250.jpg" class="img-fluid" alt="">           
-              <h4><a href="services.html">Suurpuhastus </a></h4>
-              <p>Tõsine sündmus, mida tuleb teha mitu korda aastas</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mt-3">
-            <div class="icon-box">     
-              <img src="assets/img/room-500x250.jpg" class="img-fluid" alt="">         
-              <h4><a href="services.html">Remondijärgne puhastamine</a></h4>
-              <p>Üks kõige keerulisematest koristustüübidest</p>
-            </div>
-          </div>
-        </div>
-          <h3>Kontori puhastus</h3>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mt-3">
-            <div class="icon-box">              
-              <img src="assets/img/room-500x250.jpg" class="img-fluid" alt="">
-              <h4><a href="#">Üldine</a></h4>
-              <p>vajalik iga kuue kuu tagant või vastavalt vajadusele sagedamini</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mt-3">
-            <div class="icon-box">              
-              <img src="assets/img/room-500x250.jpg" class="img-fluid" alt="">
-              <h4><a href="#">Igapäevane</a></h4>
-              <p>abiks igapäevase puhtuse ja tervisliku töökeskkonna säilitamisel</p>
-            </div>
-          </div>         
-        </div>
-        <h3>Teised puhastusteenused</h3>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mt-3">
-            <div class="icon-box">
-              <img src="assets/img/room-500x250.jpg" class="img-fluid" alt="">
-              <h4><a href="#">Pehme mööbli puhastus</a></h4>
-              <p>Kui on vaja diivanit, madratsi või muu pehme mööbli puhtaks teha</p>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mt-3">
-            <div class="icon-box">
-              <img src="assets/img/room-500x250.jpg" class="img-fluid" alt="">
-              <h4><a href="#">Aknapesu</a></h4>
-              <p>Aknapesu nii korteris, majas, büroohoones või teistel äriobjektidel</p>
-            </div>
-          </div>  
-          <div class="col-md-6 col-lg-4 mt-3">
-            <div class="icon-box">
-              <img src="assets/img/room-500x250.jpg" class="img-fluid" alt="">
-              <h4><a href="#">Vaipade puhastus</a></h4>
-              <p>Ökopuhastus, mis sobib ka käsitsi kootud toodete, looduslike villavaipade ja siidvaipade jaoks.</p>
-            </div>
-          </div>       
-        </div>
-      </div>
-    </section><!-- End Services Section -->
-    
-    <!-- ======= FAQ Section ======= -->
-    <section id="FAQSection" class= "FAQSection">
-      <div class="container"> 
-        
-        <div class="section-title">
-          <h2>Korduvad küsimused</h2>         
-        </div>
-
-        <div class="accordion" id="accordionFAQ">
-          <div class="card">
-            <div class="card-header" id="questionOne">
-              <h2 class="mb-0">
-                <button class="btn btn-block text-left " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Kui kaua puhastamine kestab?
-                </button>
-              </h2>
-            </div>                   
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionFAQ">
-              <div class="card-body">
-                Üldjuhul kulub tavapärase puhastamisega keskmiselt 2-6 tundi, mida suurem on ruum, seda kauem kulub puhastusele. Standardse puhastus viisiga on hinnanguline valem 15m2 – 1 tund, tuletame teile meelde, et standardpuhastus ei hõlma akende puhastamist ja pehme mööbli puhastust.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="questionTwo">
-              <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Kas tasulise parkimise maksumus on hinna sees?
-                </button>
-              </h2>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="questionTwo" data-parent="#accordionFAQ">
-              <div class="card-body">
-                Ei, tasulise parkimise maksumus ei sisaldu hinnas, parkimine tasutakse vastavalt hinnakirjale eraldi.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="questionThree">
-              <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Transporditeenused või kui palju on km?
-                </button>
-              </h2>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="questionThree" data-parent="#accordionFAQ">
-              <div class="card-body">
-                Transporditeenuste maksumuse arvutame järgmise valemi järgi: kaugus kesklinnast (Viru hotell) sinna ja tagasi on 0,30 €/km, kuid minimaalne tariif on 3 €.
-              </div>
-            </div>
-          </div>
-          
-          <div class="card">
-            <div class="card-header" id="questionFour">
-              <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Kas lepingu sõlmimisel või püsiklientidele on allahindlusi?
-                </button>
-              </h2>
-            </div>
-            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
-              <div class="card-body">
-                Muidugi pakume klientidele allahindlusi. Selles küsimuses teid konsulteerib meie spetsialist hea meelega.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="questionFive">
-              <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Kas ma saan puhastusspetsialistit täielikult usaldada?
-                </button>
-              </h2>
-            </div>
-            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionFAQ">
-              <div class="card-body">
-                Kõikidel meie töötajatel on puhas ajalugu ja meie ettevõte vastutab nende usaldusväärsuse eest.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="questionSix">
-              <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  Kas puhastusspetsialist saab kappe iseseisvalt avada?
-                </button>
-              </h2>
-            </div>
-            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionFAQ">
-              <div class="card-body">
-              Mitte mingil juhul ei saa, see on rangelt keelatud. Puhastaja saab avada ainult eelnevalt kokku lepitud kappe või sahtleid. Näiteks võtke tolmuimejat kusagil, pange nõusid kappi vms.
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="questionSeven">
-              <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  Kas ma pean koristusteenuse teostamise ajal kohal olema?
-                </button>
-              </h2>
-            </div>
-            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionFAQ">
-              <div class="card-body">
-                Muidugi võite soovi korral kodus olla, kuid see pole vajalik. Kõik puhastamise üksikasjad lepitakse teiega eelnevalt kokku ja puhastamise käigus lisaküsimusi tavaliselt ei teki.
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="questionSeven">
-              <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                  Kuidas arvutatakse Ida-Virumaal kaugust?
-                </button>
-              </h2>
-            </div>
-            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionFAQ">
-              <div class="card-body">
-                Kõik selle piirkonna kaugused arvutatakse Jõhvi bussijaamast, sinna ja tagasi 0,30 €/km.
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Services Section -->  
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Kliendid kiidavad</h2>
-          <p></p>
-        </div>
-        <div class="splide">
-          <div class="splide__track">
-              <ul class="splide__list">
-                      <li class="splide__slide"><div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Suur suur tänu tublidele koristajatele. Oleme väga rahul. Tervitades Marlen Kiiust
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-           
-            <h3>Marlen Kiiust</h3>
-            <h4>02.08.2019</h4>
-          </div>
-                      </li>
-                      <li class="splide__slide">  <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Tere! Palun öelge edasi minu suurimad tänud, korter on nagu kuldmuna! 🙂
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <h3>Heiti Ken</h3>
-            <h4>03.09.2019</h4>
-          </div>
-                      </li>
-                      <li class="splide__slide">  <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Kasutame Smile cleaning teenuseid äripinnal. Oleme väga rahul! Väga viisakad koristajad ja alati puhas töö!
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>            
-            <h3>Kristina Kello</h3>
-            <h4>01.05.2019</h4>
-          </div>
-                      </li>
-                      <li class="splide__slide">  <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Vastutus tundlik ja individuaalne suhtumine igasse klienti
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <h3>Olesja Lutovinova</h3>
-            <h4>21.02.2019</h4>
-          </div>
-                      </li>
-                      <li class="splide__slide">  <div class="testimonial-item">
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              Meil puhastati vaiba. Paljude aastate jooksul on ta saanud määrdunuks ja inetuks. Veen on kodus olev koer, kes pidevalt ajab karva. Täielikult eemaldasid...
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
-            <h3>Leana Anderson</h3>
-            <h4>03.2019</h4>
-          </div>
-        </div>
-                      </li>
-                    
-              </ul>
-          </div>
-      </div> 
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Meeskond</h2>
-          <p>Oleme korduvalt öelnud, et meie ettevõtte teenuste kvaliteet sõltub suuresti töötajatest. Smile Cleaning pöörab tähelepanu nii administraatorite pingutustele kui ka koristajate innukusele. Kui ülesanded on selgelt jaotatud ja töötajatele loodud mugavad tingimused, on see juba pool edust.</p>
-          <p>Cleaning meeskond – noored spetsialistid erinevatest riikidest (Eesti ja Valgevene), kes soovivad oma ülesandeid arendada ja vastutustundlikult täita.</p>  
-          <p>Lisaks vastutustundlikele koristajatele on meil olemas võimas meeskond spetsialiste Valgevenest, kes tegelevad meie saidiga ja teevad kõik oma klientide mugavuse huvides. SeoBY on noored spetsialistid , kes teavad täpselt, kuidas veebisaiti Internetis reklaamida ja selle kasutajasõbralikuks muuta.</p>
-          <p>Ljubov – sihtimise spetsialist . Tänu sellele punajuukselisele ilule optimeeriti tööd Facebookis. Ta tutvustas uusi ideid ja kontseptsioone reklaamikampaania edendamiseks Facebooki ja Instagrami kaudu.</p>
-          <p>Olga tegeleb SEO-reklaamimisega ja Natalya tegeleb Smile Cleaning saidi tehnilise toega.</p>
-          <p> Aleksey on töötaja, kes täidab vene- ja ingliskeelse versiooni kontekstipõhise reklaami funktsiooni. Aleksei teeb tihedat koostööd ka Eesti spetsialistidega.</p>
-          <p>Meie koristajad läbivad mitu koolitusetappi: alates pinnapuhastusmeetoditest ja lõpetades eri tüüpi pesemisvahenditega. Tänu personalijuhi Inna hästi organiseeritud süsteemile on meil kohusetundlikud töötajad ja suurepärased puhastustulemused.</p> 
-          <p>Smile Cleaning on meie meeskonna kõigi linkide töö tulemus. Valime personali hoolikalt ja väärtustame iga töötajat.</p>
-          <p>Sellepärast tehakse kogu töö täpselt, tõhusalt ja õigeaegselt.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/rudolf-dir-1.jpg" alt="Rudolf">
-              <h4>Rudolf</h4>
-              <span>Projektijuht</span>
-              <p>
-                Problem solver, SMM responsible
-              </p>             
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/avatar-inna-1.png" alt="Inna">
-              <h4>Inna</h4>
-              <span>Personalijuht</span>
-              <p>
-               Võtab oma tööd tõsiselt
-              </p>             
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/olga-seoby-1.png" alt="Olga">
-              <h4>Olga </h4>
-              <span>SEO-spetsialist</span>
-              <p>
-               
-              </p>             
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/natmet-1.jpg" alt="Natalya">
-              <h4>Natalya </h4>
-              <span>Veebilehe tugi</span>
-              <p>
-               
-              </p>             
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <img src="assets/img/team/Aleksandra.png" alt="Aleksandra">
-              <h4>Aleksandra</h4>
-              <span>Koristaja</span>
-              <p>              
-              </p>
-              <!--<div class="social">
-                <a href=""><i class="icofont-twitter"></i></a>
-                <a href=""><i class="icofont-facebook"></i></a>
-                <a href=""><i class="icofont-instagram"></i></a>
-                <a href=""><i class="icofont-linkedin"></i></a>
-              </div>-->
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
     <div class="footer-top">
       <div class="container">
-        <div class="row">
-        
-          
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Lisainfo</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/#faq">KKK</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/contact">Kontakt</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/#feedback">Kliendid kiidavad</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Teenused</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="/services#appartments">Kodu koristus</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/services#office">Kontori koristus</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/services#other">Teised koristusteenused</a></li>
-            </ul>
-          </div>
+        <div class="row">     
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Tööeag</h4>            
+            <h4>Wezen</h4>
             <ul>
-              <li class="text"><p><strong>Info:</strong> 8:00-20:00</p></li>
-              <li class="text"><p><strong>Puhastusteenus:</strong> E-R 9:00-17:00</p></li>
-              <li class="text"><p><strong>Puhkepäevad:</strong> Kokkuleppel</p></li>
+              <li class="text"><p>Paevälja pst 9/1, 13628 Tallinn</p></li>
+              <li class="text"><p><strong>Reg.nr:</strong>16522930</p></li></li>
+              <li class="text"><p><strong>Phone:</strong> <a href="tel:+37253098941">+372 5309 8941</a></p></li>
+              <li class="text"><p><strong>E-mail:</strong> <a href="mailto:info@wezen.ee">info@wezen.ee</a></p></li>
             </ul>
-          </p>
           </div>
-          <div class="col-lg-4 col-md-6 footer-contact">
-              <h4>Võtke ühendust</h4>     
-              <ul>
-                <li class="text"><p><strong>Phone:</strong> <a href="tel:+37255542697">+372 5554 2697</a></p></li>
-                <li class="text"><p><strong>E-mail:</strong> <a href="mailto:contact.smilecleaning@gmail.com">contact.smilecleaning@gmail.com</a></p></li>
-              </ul>   
+          <div class="col-lg-4 col-md-6 footer-openhours">
+            <h4>Avatud</h4>
+            <ul>
+              <li class="text"><p><strong>E-R:</strong>9:00-19:00</p></li>
+              <li class="text"><p><strong>L-P:</strong>10:00-17:00</p></li>          
+            </ul>
+          </div>          
+          <div class="col-lg-4 col-md-6 footer-social-media">             
             <div class="social-links text-center text-md-left pt-3 pt-md-0">              
-              <a href="https://www.facebook.com/SmileCleaningEesti/" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/smilecleaning.eesti/" class="instagram"><i class="bx bxl-instagram"></i></a>             
+              <a href="https://www.facebook.com/groups/754792295605203" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/wezen.workshop/" class="instagram"><i class="bx bxl-instagram"></i></a>             
             </div>           
-          </div>
-         
+          </div>         
         </div>
       </div>
-    </div>
-
-  
+    </div>  
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
