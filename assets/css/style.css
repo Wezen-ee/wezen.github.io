@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   padding: 10px 0;
   background: #212121;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(163, 163, 163, 0.25);
   transition: ease all 0.3s;
 }
 
@@ -568,11 +568,10 @@ section {
 }
 
 
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.pricelist .icon-box {
+.services .icon-box {
   min-height: 325px;
   padding: 30px 30px 15px;
   border-radius: 6px;
@@ -580,13 +579,13 @@ section {
   transition: ease-in-out 0.3s;
 }
 
-.pricelist .icon-box i {
+.services .icon-box i {
   float: left;
-  color: #3498db;
+  color: #BFBFBF;
   font-size: 40px;
 }
 
-.pricelist .icon-box h4 {
+.services .icon-box h4 {
   margin-top: 20px;
   text-align: left;
   font-weight: 700;
@@ -594,49 +593,54 @@ section {
   font-size: 18px;
 }
 
-.pricelist .icon-box h4 a {
-  color: #384046;
+.services .icon-box h4 a {
+  color: #909090;
   transition: 0.3s;
 }
-.pricelist h3 {
+.services h3 {
   margin-top: 20px;
   
 }
-.pricelist .icon-box p {
+.services .icon-box p {
   text-align: left;
   line-height: 24px;
   font-size: 14px;
 }
 
-.pricelist .icon-box:hover {
+.services .icon-box:hover {
   box-shadow: 0px 2px 22px rgba(0, 0, 0, 0.08);
 }
 
-.pricelist .icon-box:hover h4 a {
-  color: #3498db;
+.services .icon-box:hover h4 a {
+  color: #BFBFBF;
 }
 
-
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(191, 191, 191, 0.25);
+}
 /*--------------------------------------------------------------
 # Accordion
 --------------------------------------------------------------*/
 .accordion .card {
   
-  border-color:transparent !important;
+  border-color: #BFBFBF !important;
+}
+.accordion .btn:focus
+{
+  box-shadow: transparent !important;
 }
 .accordion .card .card-header {
-    background-color: #eaf4fb;
+    background-color: #BFBFBF;
     font-family:"Raleway", sans-serif;
-    border-color:transparent !important;
+    border-color: #BFBFBF !important;
 }
 .accordion .card .card-body {
-  background-color: #f7fbfe;
+  background-color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   border-color:transparent !important;
 }
-
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

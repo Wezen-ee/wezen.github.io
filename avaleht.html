@@ -37,9 +37,9 @@
       </div>
       <nav class="nav-menu d-none d-lg-block">     
         <ul>
-          <li><a href="avaleht.html">Avaleht</a></li> 
-          <li><a href="#what-we-do">Teenused</a></li>   
-          <li><a href="#pricelist">Hinnakiri</a></li> 
+          <li><a href="avaleht.html">Avaleht</a></li>           
+          <li><a href="#what-we-do">Teenused</a></li>  
+          <li><a href="#pricelist">Hinnakiri</a></li>            
           <li><a href="#about">Meist</a></li> 
           <li><a href="#contact">Kontakt</a></li>        
           <li class="drop-down language">
@@ -71,73 +71,132 @@
       <a href="https://goo.gl/maps/oAf9GxJytgKKXXG57" target="_blank" class="btn btn-secondary">Asukoht (Google kaart)</a>      
     </div>
   </section><!-- End Hero -->
+  
 
     <!-- ======= What We Do Section ======= -->
-    <section id="what-we-do" class="what-we-do">
-      <div class="container">
-        <div class="section-title">
-          <h2>Teenused</h2>         
-        </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-stretch">
-            <div class="icon-box" data-href="/services">
-              <img src="assets/img/MainPagePhotos/car-repair.jpg" class="img-fluid" alt="Autoremont">
-              <h4><a href="/autoremont">Autoremont</a></h4>
-            </div>
+      <section id="what-we-do" class="what-we-do">
+        <div class="container">
+          <div class="section-title">
+            <h2>Teenused</h2>         
           </div>
-
-          <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box" data-href="/services">
-              <img src="assets/img/MainPagePhotos/car-detailing.jpg" class="img-fluid" alt="Autoremont">
-              <h4><a href="/detailing">Detailing</a></h4>           
+          <div class="row">
+            <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-stretch">
+              <div class="icon-box" data-href="/services">
+                <img src="assets/img/MainPagePhotos/car-repair.jpg" class="img-fluid" alt="Autoremont">
+                <h4><a href="/autoremont">Autoremont</a></h4>
+              </div>
             </div>
+  
+            <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-stretch mt-4 mt-md-0">
+              <div class="icon-box" data-href="/services">
+                <img src="assets/img/MainPagePhotos/car-detailing.jpg" class="img-fluid" alt="Autoremont">
+                <h4><a href="/detailing">Detailing</a></h4>           
+              </div>
+            </div>
+  
           </div>
-
+  
         </div>
-
-      </div>
-    </section><!-- End What We Do Section -->   
-
-    <!-- ======= Pricelist  Section ======= -->
-    <section id="pricelist" class="pricelist section-bg">
+      </section>
+    <!-- End What We Do Section -->   
+   
+     <!-- ======= Services Section ======= -->
+     <section id="pricelist" class="pricelist section-bg">
       <div class="container">
+
         <div class="section-title">
           <h2>Hinnakiri</h2>          
         </div>        
-        <div class="accordion" id="accordion-pricelist">
+        <div class="accordion" id="accordionPricelist">
           <div class="card">
-            <div class="card-header" id="accordion-repair">
+            <div class="card-header" id="autoremont">
               <h2 class="mb-0">
                 <button class="btn btn-block text-left " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <h3>Autoremont</h3>
+                  Autoremont
                 </button>
               </h2>
             </div>                   
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionFAQ">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionPricelist">
               <div class="card-body">
-                <!--insert table-->
+                <table class="table table-hover table-fixed">
+                  <thead>
+                    <tr>                      
+                      <th scope="col-6">Teenus</th>
+                      <th scope="col-3">Hind</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>                      
+                      <td>Mootorõli vahetus</td>
+                      <td>25€</td>                    
+                    </tr>
+                    <tr>                      
+                      <td>Mootorõli vahetus koos kõik filtritega</td>
+                      <td>45-55€</td>       
+                    </tr>
+                    <tr>                      
+                      <td>Piduriklotside vahetus</td>
+                      <td>25€</td>                                           
+                    </tr>
+                    <tr>                      
+                      <td>Piduriketaste ja klotside vahetus</td>
+                      <td>50-70€</td>                                           
+                    </tr>
+                    <tr>                      
+                      <td>Rattalaagri vahetus</td>
+                      <td>50-70€</td>                                           
+                    </tr>
+                    <tr>                      
+                      <td>Stabilisaatori varraste vahetus</td>
+                      <td>30€</td>                                           
+                    </tr>
+                    <tr>                      
+                      <td>Hammasrihma vahetus</td>
+                      <td>al 90€</td>                                           
+                    </tr>
+                    <tr>                      
+                      <td>Piduritorude vahetus</td>
+                      <td>al 90€</td>                                           
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="card-header" id="accordion-detailing">
+            <div class="card-header" id="detailing">
               <h2 class="mb-0">
                 <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <h3>Detailing</h3>
+                  Detailing
                 </button>
               </h2>
             </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="questionTwo" data-parent="#accordionFAQ">
+            <div id="collapseTwo" class="collapse" aria-labelledby="questionTwo" data-parent="#accordionPricelist">
               <div class="card-body">
                 Ei, tasulise parkimise maksumus ei sisaldu hinnas, parkimine tasutakse vastavalt hinnakirjale eraldi.
               </div>
             </div>
-          </div>  
-        </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-header" id="detailing">
+              <h2 class="mb-0">
+                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Lisateenused
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="questionTwo" data-parent="#accordionPricelist">
+              <div class="card-body">
+                Ei, tasulise parkimise maksumus ei sisaldu hinnas, parkimine tasutakse vastavalt hinnakirjale eraldi.
+              </div>
+            </div>
+          </div>      
       </div>
     </section>
-    <!-- End Pricelist Section -->
+    <!-- End Services Section -->
     
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
