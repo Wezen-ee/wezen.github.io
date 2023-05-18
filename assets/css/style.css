@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 65vh;
-  background: url("../img/MainPagePhotos/main-page-background-short.jpg") center center;
+  background: url("../img/MainPagePhotos/main-page-background-short.webp") center center;
   background-size: cover;
   position: relative;
   padding: 0;
