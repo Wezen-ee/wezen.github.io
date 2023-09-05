@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .header-social-links {
-    position: relative;
+    position:static;
     padding-right: 48px;
   }
   .header-social-links a {
@@ -278,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "\ea99";
   font-family: IcoFont;
   padding-left: 10px;
-  position: absolute;
+  position: relative;
   right: 15px;
 }
 
