@@ -103,9 +103,16 @@ h1, h2, h3, h4, h5, h6 {
   .header-social-links {
     position:relative !important;
     padding-right: 48px;
+    height: 26px;
   }
   .header-social-links a {
-    padding-left: 6px;
+    display: block;
+    float: left;
+    margin: 0 6px;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
   }
 }
 
