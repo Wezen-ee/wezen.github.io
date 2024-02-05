@@ -67,19 +67,25 @@
             <h2>Teenused</h2>         
           </div>
           <div class="row">
-            <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-stretch">
+            <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-stretch">
               <div class="icon-box" data-href="#autoremont">
                 <img src="assets/img/MainPagePhotos/car-repair.webp" class="img-fluid" alt="Autoremont">
                 <h4><a href="#autoremont">Autoremont</a></h4>
               </div>
             </div>
-  
-            <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-stretch mt-4 mt-md-0">
+            <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-stretch mt-4 mt-md-0">
+              <div class="icon-box" data-href="#rehvivahetus">
+                <img src="assets/img/MainPagePhotos/car-detailing.webp" class="img-fluid" alt="Rehvivahetus">
+                <h4><a href="#rehvivahetus">Rehvivahetus</a></h4>           
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 d-flex justify-content-center align-items-stretch mt-4 mt-md-0">
               <div class="icon-box" data-href="#detailing">
-                <img src="assets/img/MainPagePhotos/car-detailing.webp" class="img-fluid" alt="Autoremont">
+                <img src="assets/img/MainPagePhotos/car-detailing.webp" class="img-fluid" alt="Detailing">
                 <h4><a href="#detailing">Detailing</a></h4>           
               </div>
             </div>
+
   
           </div>
   
@@ -106,7 +112,6 @@
                     <tr>                      
                       <th scope="col-6">Teenus</th>
                       <th scope="col-3">Hind</th>
-                      
                     </tr>
                   </thead>
                   <tbody>
@@ -147,16 +152,58 @@
               </div>
             </div>
           </div>
-
+          <div class="card">
+            <div class="card-header" id="rehvivahetus">
+              <h2 class="mb-0">
+                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Rehvivahetus 
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="collapseTwo" data-parent="#accordionPricelist">
+              <div class="card-body">
+                <table class="table table-hover table-fixed">
+                  <thead>
+                    <tr>                      
+                      <th scope="col">Teenus</th>
+                      <th scope="col">14"-16"</th> 
+                      <th scope="col">17"</th> 
+                      <th scope="col">18"</th>                     
+                    </tr>
+                  </thead>
+                  <tbody>                      
+                    <tr>                      
+                      <td>Sõiduauto</td>
+                      <td>50€</td>  
+                      <td>60€</td>  
+                      <td>70€</td>                                       
+                    </tr>
+                    <tr>                      
+                      <td>Maastur</td>
+                      <td>65€</td>   
+                      <td>75€</td>    
+                      <td>90€</td>                                      
+                    </tr>
+                    <tr>                      
+                      <td>Kaubik</td>
+                      <td>65€</td> 
+                      <td>75€</td> 
+                      <td>85€</td>                                           
+                    </tr>
+                  </tbody>
+                </table>                                             
+              </div>
+            </div>
+          </div> 
           <div class="card">
             <div class="card-header" id="detailing">
               <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   Detailing
                 </button>
               </h2>
             </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="questionTwo" data-parent="#accordionPricelist">
+            <div id="collapseThree" class="collapse" aria-labelledby="collapseThree" data-parent="#accordionPricelist">
               <div class="card-body">
                 <table class="table table-hover table-fixed">
                   <thead>
@@ -208,14 +255,14 @@
             </div>
           </div>
           <div class="card">
-            <div class="card-header" id="detailing">
+            <div class="card-header" id="lisateenused">
               <h2 class="mb-0">
-                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                   Lisateenused 
                 </button>
               </h2>
             </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="collapseThree" data-parent="#accordionPricelist">
+            <div id="collapseFour" class="collapse" aria-labelledby="collapseFour" data-parent="#accordionPricelist">
               <div class="card-body">
                 <table class="table table-hover table-fixed">
                   <thead>
@@ -245,6 +292,10 @@
                       <td>Auto ülevaatus enne ostu/müüki</td>
                       <td>50€</td>                                           
                     </tr>
+                    <tr>                      
+                      <td>Rehviremont rasvanööriga</td>
+                      <td>10€</td>                                           
+                    </tr>  
                   </tbody>
                 </table>                                             
               </div>
@@ -322,8 +373,8 @@
           <div class="col-lg-4 col-md-6 footer-contact">
             <h4>Avatud</h4>
             <ul>
-              <li class="text"><p><strong>E-R: </strong>9:00-19:00</p></li>
-              <li class="text"><p><strong>L-P: </strong>10:00-17:00</p></li>          
+              <li class="text"><p><strong>E-R: </strong>9:00-18:00</p></li>
+              <li class="text"><p><strong>L-P: </strong>Kokkuleppel</p></li>          
             </ul>
             <div class="social-links text-center text-md-left pt-3 pt-md-0">              
               <a href="https://www.facebook.com/groups/754792295605203" class="facebook"><i class="bx bxl-facebook"></i></a>
